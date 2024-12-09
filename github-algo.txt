@@ -1,0 +1,27 @@
+1. Create a public repository on github (i.e. CRUD-php-PDO-employees.git)
+2. Take care of the exaples (*)
+3. On Control Version item (VSC) click on Download Git For Linux
+4. Follow the first step in the web: sudo apt-get install git
+5. You could close and open again the VSC and see the Control Version item
+6. Stablish the credentiasl:
+        git config --global user.email "................"
+        git config --global user.name "xxxxxxxx"
+        git config --global --list
+7. Initialize the repository
+7. Make our "First Commit"
+
+ 
+
+
+…or create a new repository on the command line
+echo "# companyDB" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/erikthevasco/companyDB.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/erikthevasco/companyDB.git
+git branch -M main
+git push -u origin main
