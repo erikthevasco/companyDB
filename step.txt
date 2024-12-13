@@ -1,0 +1,6 @@
+-After following the crud app guide:
+1. Create a table "accoounts/users" in the DB with name and password fields(name is the PRIMARY KEY/PK)
+2. Insert a valid user row
+3. Create login.php with the form to validate
+4. Make a protect.php to reject the users trying to enter without login step
+5. Include the protect.php at the begining of all files you must protect in the CRUD app
